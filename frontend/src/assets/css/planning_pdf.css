@@ -1,0 +1,298 @@
+*{
+  font-family: arial;
+  font-weight: normal;
+  border-collapse:collapse;
+  padding: 0px;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+}
+fieldset {
+  border: 0px;
+}
+.clear {
+  clear: both;
+}
+body {
+  text-align: center;
+  position: relative;
+}
+.centro {
+  text-align: center;
+}
+hr {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: solid 1px #ccc;
+  float: left;
+  width: 100%;
+}
+.col_right hr {
+  margin-bottom: 10px;
+  border-bottom: solid 1px #ccc;
+}
+/*Maqueta general*/
+.a4{
+  width: 793px !important;
+  height: 1123px;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: top;
+}
+.a4 tr td.superior{
+  width: 793px !important;
+  height: 1123px;
+  /* position: relative; */
+  /* background-color: #000; */
+  padding: 0px;
+  margin: 0px;
+  vertical-align: top;
+}
+table{
+  width: 100%;
+  /* background-color: #fff; */
+}
+.a4 h2{
+  text-align: left;
+  padding: 0 0 15px 15px;
+  font-size: 23px;
+  color: #000;
+}
+.header{
+  margin: 0 0 20px 0;
+  height: 100px;
+  border-bottom: solid 1px #999;
+}
+.header tr td.info h1{
+  font-size: 18px;
+  color: #063F45;
+  min-height: 94px;
+  text-align: center;
+  vertical-align: middle;
+  width: 397px;
+  min-height: 94px;
+  display: table;
+  border-left: solid 1px #ccc;
+}
+.header img{
+  border: 0px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 76px;
+}
+.header .logo {
+  margin: 0px;
+  width: 207px;
+  height: 100px;
+  display: block;
+  margin-top: 0px;
+  border-right: solid 1px #999;
+}
+.header .logotipo{
+  height: 107px;
+  width: 185px;
+}
+.header .info{
+  width: 585px;
+  height: 100px;
+  text-align: left;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-image: url(../images/hierarchy_header_bg.png);
+}
+.header .info tr td:nth-child(1){
+  width: 170px;
+  text-align:left;
+  color: #063F45;
+  /* float:left; */
+  line-height: 28px;
+  font-size: 26px;
+  padding: 0px 0 0 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: left 15px center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icon_calendar.png);
+}
+.header .info tr td:nth-child(2){
+  width: 330px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-left: solid 1px #999;
+  padding: 0 15px;
+}
+.header .info tr td:nth-child(2) p{
+  color: #666;
+  font-size: 15px;
+  line-height: 19px;
+}
+.header .info tr td:nth-child(2) p span{
+  color: #0C4646;
+  font-size: 1em;
+  line-height: 19px;
+}
+.schedule{
+  text-align: left;
+  width: 750px;
+  margin: 0 0 0px 20px;
+  border-top: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-bottom: 0px;
+}
+.schedule.ultima{
+  border-bottom: solid 1px #ccc;
+}
+.schedule:last-child{
+  border-bottom: solid 1px #ccc !important;
+}
+.schedule tr{
+   width: 750px;
+}
+.schedule tr td.col_left{
+  background-color: #99C66B;
+  width: 192px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  vertical-align: top;
+  padding: 10px 10px;
+}
+.schedule tr td.col_left.dark_green{
+  background-color: #053E42;
+}
+
+.schedule tr td.col_left h3{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 20px;
+}
+.schedule tr td.col-right h3{
+  width: 100%;
+  color: #053E3F;
+  font-size: 14px;
+  margin: 0px 0 5px 0;
+  line-height: 17px;
+  font-style: italic;
+}
+.schedule tr td h3 strong{
+  font-weight: bold;
+}
+.schedule tr td.col_right{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.set{
+  margin: 0 0 10px 0;
+}
+.set .icon{
+  width: 62px;
+  height: 64px;
+}
+.set .icon p{
+  width: 62px;
+  height: 64px;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-indent: -9999px;
+  background-position: center center;
+}
+.set .description{
+  padding: 0 0 0 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.set .description h2{
+  width: 100%;
+  color: #053E40;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0 0 0 0;
+  margin: 0 0 2px 0;
+}
+.set .description p{
+  width: 100%;
+  color: #333;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 0 0 0 0;
+  margin: 0 0 2px 0;
+}
+.set .description p span{
+  width: 100%;
+  color: #666;
+  font-size: 1em;
+  line-height: 16px;
+}
+.hierarchy_board tr td{
+  padding: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.hierarchy_board h2{
+  padding: 0 0 0 0;
+  font-size: 16px;
+  color: #053E40;
+  font-style: italic;
+  margin: 0 0 3px 0;
+}
+.hierarchy_board h3{
+  padding: 0 0 0 0;
+  font-size: 15px;
+  color: #053E40;
+  font-style: italic;
+  margin: 0 0 3px 0;
+}
+.hierarchy_board p{
+  padding: 0 0 0 0;
+  font-size: 14px;
+  color: #333;
+  margin: 0 0 9px 0;
+}
+.hierarchy_board p.hierarchy_1{
+  padding: 0 0 0 18px;
+  background-position: 0 2px;
+  background-repeat: no-repeat;
+  background-image: url(../images/hierarchy_arrow.png);
+}
+.hierarchy_board p.hierarchy_2{
+  padding: 0 0 0 36px;
+  background-position: 20px 2px;
+  background-repeat: no-repeat;
+  background-image: url(../images/hierarchy_arrow.png);
+}
+.hierarchy_board.alternativa{
+  background-color: #eee;
+}
+.footer{
+  /*position: absolute;*/
+  bottom: 0px;
+  left: 0px;
+  margin-top: 5px;
+}
+.footer,
+.footer tr,
+.footer tr td{
+  height: 44px;
+}
+.footer img{
+  max-width: 100%;
+  height: auto;
+}
